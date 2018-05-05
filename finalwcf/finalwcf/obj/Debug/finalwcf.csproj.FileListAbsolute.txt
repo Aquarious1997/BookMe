@@ -4,3 +4,9 @@ c:\users\aquaioux\documents\visual studio 2015\Projects\finalwcf\finalwcf\bin\fi
 c:\users\aquaioux\documents\visual studio 2015\Projects\finalwcf\finalwcf\obj\Debug\finalwcf.csprojResolveAssemblyReference.cache
 c:\users\aquaioux\documents\visual studio 2015\Projects\finalwcf\finalwcf\obj\Debug\finalwcf.dll
 c:\users\aquaioux\documents\visual studio 2015\Projects\finalwcf\finalwcf\obj\Debug\finalwcf.pdb
+E:\finalwcf\finalwcf\bin\finalwcf.dll.config
+E:\finalwcf\finalwcf\bin\finalwcf.dll
+E:\finalwcf\finalwcf\bin\finalwcf.pdb
+E:\finalwcf\finalwcf\obj\Debug\finalwcf.csprojResolveAssemblyReference.cache
+E:\finalwcf\finalwcf\obj\Debug\finalwcf.dll
+E:\finalwcf\finalwcf\obj\Debug\finalwcf.pdb
