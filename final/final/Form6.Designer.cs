@@ -40,7 +40,6 @@
             this.bunifuMetroTextbox4 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -190,18 +189,6 @@
             this.label5.TabIndex = 21;
             this.label5.Text = "Email";
             // 
-            // linkLabel4
-            // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.LinkColor = System.Drawing.Color.Gray;
-            this.linkLabel4.Location = new System.Drawing.Point(258, 391);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(77, 13);
-            this.linkLabel4.TabIndex = 26;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Back To Login";
-            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
-            // 
             // bunifuFlatButton1
             // 
             this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
@@ -243,7 +230,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(361, 413);
-            this.Controls.Add(this.linkLabel4);
             this.Controls.Add(this.bunifuFlatButton1);
             this.Controls.Add(this.bunifuMetroTextbox3);
             this.Controls.Add(this.bunifuMetroTextbox4);
@@ -278,7 +264,6 @@
         private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.LinkLabel linkLabel4;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
     }
 }

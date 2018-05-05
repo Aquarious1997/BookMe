@@ -39,6 +39,10 @@ namespace final
                     bunifuMetroTextbox2.Text = " ";
                     bunifuMetroTextbox3.Text = " ";
                     bunifuMetroTextbox4.Text = " ";
+
+                Form8 frm = new Form8();
+                frm.Show();
+                this.Hide();
               
 
 
@@ -48,7 +52,7 @@ namespace final
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form3 frm = new Form3();
+            Form7 frm = new Form7();
             frm.Show();
             this.Hide();
         }
