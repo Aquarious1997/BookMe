@@ -1,0 +1,18 @@
+c:\users\aquaioux\documents\visual studio 2015\Projects\custwcf\custwcf\obj\Debug\custwcf.csprojResolveAssemblyReference.cache
+c:\users\aquaioux\documents\visual studio 2015\Projects\custwcf\custwcf\bin\custwcf.dll.config
+c:\users\aquaioux\documents\visual studio 2015\Projects\custwcf\custwcf\bin\custwcf.dll
+c:\users\aquaioux\documents\visual studio 2015\Projects\custwcf\custwcf\bin\custwcf.pdb
+c:\users\aquaioux\documents\visual studio 2015\Projects\custwcf\custwcf\obj\Debug\custwcf.dll
+c:\users\aquaioux\documents\visual studio 2015\Projects\custwcf\custwcf\obj\Debug\custwcf.pdb
+C:\Users\AquaiouX\Videos\custwcf\custwcf\bin\custwcf.dll.config
+C:\Users\AquaiouX\Videos\custwcf\custwcf\bin\custwcf.dll
+C:\Users\AquaiouX\Videos\custwcf\custwcf\bin\custwcf.pdb
+C:\Users\AquaiouX\Videos\custwcf\custwcf\obj\Debug\custwcf.csprojResolveAssemblyReference.cache
+C:\Users\AquaiouX\Videos\custwcf\custwcf\obj\Debug\custwcf.dll
+C:\Users\AquaiouX\Videos\custwcf\custwcf\obj\Debug\custwcf.pdb
+E:\cd ooad\custwcf\custwcf\bin\custwcf.dll.config
+E:\cd ooad\custwcf\custwcf\bin\custwcf.dll
+E:\cd ooad\custwcf\custwcf\bin\custwcf.pdb
+E:\cd ooad\custwcf\custwcf\obj\Debug\custwcf.csprojResolveAssemblyReference.cache
+E:\cd ooad\custwcf\custwcf\obj\Debug\custwcf.dll
+E:\cd ooad\custwcf\custwcf\obj\Debug\custwcf.pdb
