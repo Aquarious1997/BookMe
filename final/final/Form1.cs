@@ -19,7 +19,7 @@ namespace final
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            Form3 frm = new Form3();
+            Form frm = new Form3();
             frm.Show();
             this.Hide();
         }
