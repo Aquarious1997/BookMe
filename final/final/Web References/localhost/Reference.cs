@@ -43,6 +43,16 @@ namespace final.localhost {
         
         private System.Threading.SendOrPostCallback showAllOperationCompleted;
         
+        private System.Threading.SendOrPostCallback isadOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback islogOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback cresetOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback cchangeeOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback showAll2OperationCompleted;
+        
         private bool useDefaultCredentialsSetExplicitly;
         
         /// <remarks/>
@@ -101,6 +111,21 @@ namespace final.localhost {
         
         /// <remarks/>
         public event showAllCompletedEventHandler showAllCompleted;
+        
+        /// <remarks/>
+        public event isadCompletedEventHandler isadCompleted;
+        
+        /// <remarks/>
+        public event islogCompletedEventHandler islogCompleted;
+        
+        /// <remarks/>
+        public event cresetCompletedEventHandler cresetCompleted;
+        
+        /// <remarks/>
+        public event cchangeeCompletedEventHandler cchangeeCompleted;
+        
+        /// <remarks/>
+        public event showAll2CompletedEventHandler showAll2Completed;
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/GetData", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
@@ -328,6 +353,169 @@ namespace final.localhost {
         }
         
         /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/isad", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public void isad([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string name, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string password, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string email, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string ip) {
+            this.Invoke("isad", new object[] {
+                        name,
+                        password,
+                        email,
+                        ip});
+        }
+        
+        /// <remarks/>
+        public void isadAsync(string name, string password, string email, string ip) {
+            this.isadAsync(name, password, email, ip, null);
+        }
+        
+        /// <remarks/>
+        public void isadAsync(string name, string password, string email, string ip, object userState) {
+            if ((this.isadOperationCompleted == null)) {
+                this.isadOperationCompleted = new System.Threading.SendOrPostCallback(this.OnisadOperationCompleted);
+            }
+            this.InvokeAsync("isad", new object[] {
+                        name,
+                        password,
+                        email,
+                        ip}, this.isadOperationCompleted, userState);
+        }
+        
+        private void OnisadOperationCompleted(object arg) {
+            if ((this.isadCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.isadCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/islog", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public void islog([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string name, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string password, out bool islogResult, [System.Xml.Serialization.XmlIgnoreAttribute()] out bool islogResultSpecified) {
+            object[] results = this.Invoke("islog", new object[] {
+                        name,
+                        password});
+            islogResult = ((bool)(results[0]));
+            islogResultSpecified = ((bool)(results[1]));
+        }
+        
+        /// <remarks/>
+        public void islogAsync(string name, string password) {
+            this.islogAsync(name, password, null);
+        }
+        
+        /// <remarks/>
+        public void islogAsync(string name, string password, object userState) {
+            if ((this.islogOperationCompleted == null)) {
+                this.islogOperationCompleted = new System.Threading.SendOrPostCallback(this.OnislogOperationCompleted);
+            }
+            this.InvokeAsync("islog", new object[] {
+                        name,
+                        password}, this.islogOperationCompleted, userState);
+        }
+        
+        private void OnislogOperationCompleted(object arg) {
+            if ((this.islogCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.islogCompleted(this, new islogCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/creset", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public void creset([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string name, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string email, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string npassword, out bool cresetResult, [System.Xml.Serialization.XmlIgnoreAttribute()] out bool cresetResultSpecified) {
+            object[] results = this.Invoke("creset", new object[] {
+                        name,
+                        email,
+                        npassword});
+            cresetResult = ((bool)(results[0]));
+            cresetResultSpecified = ((bool)(results[1]));
+        }
+        
+        /// <remarks/>
+        public void cresetAsync(string name, string email, string npassword) {
+            this.cresetAsync(name, email, npassword, null);
+        }
+        
+        /// <remarks/>
+        public void cresetAsync(string name, string email, string npassword, object userState) {
+            if ((this.cresetOperationCompleted == null)) {
+                this.cresetOperationCompleted = new System.Threading.SendOrPostCallback(this.OncresetOperationCompleted);
+            }
+            this.InvokeAsync("creset", new object[] {
+                        name,
+                        email,
+                        npassword}, this.cresetOperationCompleted, userState);
+        }
+        
+        private void OncresetOperationCompleted(object arg) {
+            if ((this.cresetCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.cresetCompleted(this, new cresetCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/cchangee", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public void cchangee([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string name, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string password, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string npassword, out bool cchangeeResult, [System.Xml.Serialization.XmlIgnoreAttribute()] out bool cchangeeResultSpecified) {
+            object[] results = this.Invoke("cchangee", new object[] {
+                        name,
+                        password,
+                        npassword});
+            cchangeeResult = ((bool)(results[0]));
+            cchangeeResultSpecified = ((bool)(results[1]));
+        }
+        
+        /// <remarks/>
+        public void cchangeeAsync(string name, string password, string npassword) {
+            this.cchangeeAsync(name, password, npassword, null);
+        }
+        
+        /// <remarks/>
+        public void cchangeeAsync(string name, string password, string npassword, object userState) {
+            if ((this.cchangeeOperationCompleted == null)) {
+                this.cchangeeOperationCompleted = new System.Threading.SendOrPostCallback(this.OncchangeeOperationCompleted);
+            }
+            this.InvokeAsync("cchangee", new object[] {
+                        name,
+                        password,
+                        npassword}, this.cchangeeOperationCompleted, userState);
+        }
+        
+        private void OncchangeeOperationCompleted(object arg) {
+            if ((this.cchangeeCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.cchangeeCompleted(this, new cchangeeCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/showAll2", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [return: System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
+        [return: System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/finalwcf")]
+        public CustClass1[] showAll2() {
+            object[] results = this.Invoke("showAll2", new object[0]);
+            return ((CustClass1[])(results[0]));
+        }
+        
+        /// <remarks/>
+        public void showAll2Async() {
+            this.showAll2Async(null);
+        }
+        
+        /// <remarks/>
+        public void showAll2Async(object userState) {
+            if ((this.showAll2OperationCompleted == null)) {
+                this.showAll2OperationCompleted = new System.Threading.SendOrPostCallback(this.OnshowAll2OperationCompleted);
+            }
+            this.InvokeAsync("showAll2", new object[0], this.showAll2OperationCompleted, userState);
+        }
+        
+        private void OnshowAll2OperationCompleted(object arg) {
+            if ((this.showAll2Completed != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.showAll2Completed(this, new showAll2CompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
         public new void CancelAsync(object userState) {
             base.CancelAsync(userState);
         }
@@ -389,6 +577,80 @@ namespace final.localhost {
             }
             set {
                 this.stringValueField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/finalwcf")]
+    public partial class CustClass1 {
+        
+        private string emailField;
+        
+        private string ipField;
+        
+        private string nameField;
+        
+        private string npasswordField;
+        
+        private string passwordField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string Email {
+            get {
+                return this.emailField;
+            }
+            set {
+                this.emailField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string Ip {
+            get {
+                return this.ipField;
+            }
+            set {
+                this.ipField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string Name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string Npassword {
+            get {
+                return this.npasswordField;
+            }
+            set {
+                this.npasswordField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string Password {
+            get {
+                return this.passwordField;
+            }
+            set {
+                this.passwordField = value;
             }
         }
     }
@@ -647,6 +909,138 @@ namespace final.localhost {
             get {
                 this.RaiseExceptionIfNecessary();
                 return ((Class1[])(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    public delegate void isadCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    public delegate void islogCompletedEventHandler(object sender, islogCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class islogCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal islogCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public bool islogResult {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[0]));
+            }
+        }
+        
+        /// <remarks/>
+        public bool islogResultSpecified {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[1]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    public delegate void cresetCompletedEventHandler(object sender, cresetCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class cresetCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal cresetCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public bool cresetResult {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[0]));
+            }
+        }
+        
+        /// <remarks/>
+        public bool cresetResultSpecified {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[1]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    public delegate void cchangeeCompletedEventHandler(object sender, cchangeeCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class cchangeeCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal cchangeeCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public bool cchangeeResult {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[0]));
+            }
+        }
+        
+        /// <remarks/>
+        public bool cchangeeResultSpecified {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[1]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    public delegate void showAll2CompletedEventHandler(object sender, showAll2CompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class showAll2CompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal showAll2CompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public CustClass1[] Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((CustClass1[])(this.results[0]));
             }
         }
     }

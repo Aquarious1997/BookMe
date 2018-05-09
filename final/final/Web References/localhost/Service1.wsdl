@@ -49,6 +49,36 @@
   <wsdl:message name="IService1_showAll_OutputMessage">
     <wsdl:part name="parameters" element="tns:showAllResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_isad_InputMessage">
+    <wsdl:part name="parameters" element="tns:isad" />
+  </wsdl:message>
+  <wsdl:message name="IService1_isad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:isadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_islog_InputMessage">
+    <wsdl:part name="parameters" element="tns:islog" />
+  </wsdl:message>
+  <wsdl:message name="IService1_islog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:islogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_creset_InputMessage">
+    <wsdl:part name="parameters" element="tns:creset" />
+  </wsdl:message>
+  <wsdl:message name="IService1_creset_OutputMessage">
+    <wsdl:part name="parameters" element="tns:cresetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_cchangee_InputMessage">
+    <wsdl:part name="parameters" element="tns:cchangee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_cchangee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:cchangeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_showAll2_InputMessage">
+    <wsdl:part name="parameters" element="tns:showAll2" />
+  </wsdl:message>
+  <wsdl:message name="IService1_showAll2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:showAll2Response" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="GetData">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
@@ -77,6 +107,26 @@
     <wsdl:operation name="showAll">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/showAll" message="tns:IService1_showAll_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/showAllResponse" message="tns:IService1_showAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="isad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/isad" message="tns:IService1_isad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/isadResponse" message="tns:IService1_isad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="islog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/islog" message="tns:IService1_islog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/islogResponse" message="tns:IService1_islog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="creset">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/creset" message="tns:IService1_creset_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/cresetResponse" message="tns:IService1_creset_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="cchangee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/cchangee" message="tns:IService1_cchangee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/cchangeeResponse" message="tns:IService1_cchangee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="showAll2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/showAll2" message="tns:IService1_showAll2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/showAll2Response" message="tns:IService1_showAll2_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
@@ -137,6 +187,51 @@
     </wsdl:operation>
     <wsdl:operation name="showAll">
       <soap:operation soapAction="http://tempuri.org/IService1/showAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isad">
+      <soap:operation soapAction="http://tempuri.org/IService1/isad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="islog">
+      <soap:operation soapAction="http://tempuri.org/IService1/islog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="creset">
+      <soap:operation soapAction="http://tempuri.org/IService1/creset" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cchangee">
+      <soap:operation soapAction="http://tempuri.org/IService1/cchangee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="showAll2">
+      <soap:operation soapAction="http://tempuri.org/IService1/showAll2" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

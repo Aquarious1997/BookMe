@@ -28,7 +28,19 @@ namespace finalwcf
         bool changee(string name,string password, string new_password);
         [OperationContract]
         List<Class1> showAll();
-      
+
+        [OperationContract]
+        void isad(string name, string password,string email,string ip);
+        [OperationContract]
+        bool islog(string name,string password);
+        [OperationContract]
+       bool creset(string name, string email, string npassword);
+        [OperationContract]
+        bool cchangee(string name, string password, string npassword);
+        [OperationContract]
+        List<CustClass1> showAll2();
+
+
         // TODO: Add your service operations here
     }
 

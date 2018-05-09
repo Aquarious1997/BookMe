@@ -10,9 +10,9 @@ E:\finalwcf\finalwcf\bin\finalwcf.pdb
 E:\finalwcf\finalwcf\obj\Debug\finalwcf.csprojResolveAssemblyReference.cache
 E:\finalwcf\finalwcf\obj\Debug\finalwcf.dll
 E:\finalwcf\finalwcf\obj\Debug\finalwcf.pdb
-F:\FinalBookMe\BookMe\finalwcf\finalwcf\bin\finalwcf.dll.config
-F:\FinalBookMe\BookMe\finalwcf\finalwcf\bin\finalwcf.dll
-F:\FinalBookMe\BookMe\finalwcf\finalwcf\bin\finalwcf.pdb
-F:\FinalBookMe\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.csprojResolveAssemblyReference.cache
-F:\FinalBookMe\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.dll
-F:\FinalBookMe\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.pdb
+C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\bin\finalwcf.dll.config
+C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\bin\finalwcf.dll
+C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\bin\finalwcf.pdb
+C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.csprojResolveAssemblyReference.cache
+C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.dll
+C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.pdb

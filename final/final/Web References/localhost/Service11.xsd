@@ -23,4 +23,20 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="Class1" nillable="true" type="tns:Class1" />
+  <xs:complexType name="ArrayOfCustClass1">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CustClass1" nillable="true" type="tns:CustClass1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCustClass1" nillable="true" type="tns:ArrayOfCustClass1" />
+  <xs:complexType name="CustClass1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ip" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Npassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CustClass1" nillable="true" type="tns:CustClass1" />
 </xs:schema>

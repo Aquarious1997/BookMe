@@ -12,6 +12,8 @@ namespace finalwcf
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
+      
+
         public bool changee(string name,string password, string new_password)
         {
             bool is_val = false;
@@ -28,6 +30,40 @@ namespace finalwcf
             //throw new NotImplementedException();
             return is_val;
         }
+
+        public bool cchangee(string name, string password, string new_password)
+        {
+            bool is_val = false;
+            foreach (CustClass1 i in CustClass2.db)
+            {
+                if (i.Password == password && i.Name == name)
+                {
+                    i.Password = new_password;
+                    is_val = true;
+
+                }
+            }
+            
+            return is_val;
+            //throw new NotImplementedException();
+        }
+
+        public bool creset(string name, string email, string npassword)
+        {
+            bool iseq = false;
+            foreach (Class1 i in Class2.db)
+            {
+                if (i.Name == name && i.Email == email)
+                {
+                    i.Password = npassword;
+                    iseq = true;
+                }
+            }
+            return iseq;
+            
+            //throw new NotImplementedException();
+        }
+
 
         public string GetData(int value)
         {
@@ -47,6 +83,17 @@ namespace finalwcf
             return composite;
         }
 
+        public void isad(string name, string password, string email, string ip)
+        {
+            CustClass1 f = new CustClass1();
+            f.Name = name;
+            f.Password = password;
+            f.Email = email;
+            f.Ip = ip;
+            CustClass2.db.Add(f);
+            //throw new NotImplementedException();
+        }
+
         public void isadd(string name, string password, string email, string ip)
         {
             Class1 fr = new Class1();
@@ -61,6 +108,21 @@ namespace finalwcf
             //throw new NotImplementedException();
         }
 
+        public bool islog(string name, string password)
+        {
+            bool isf = false;
+            foreach(CustClass1 r in CustClass2.db)
+            {
+                if(r.Name== name && r.Password == password)
+                {
+                    isf = true;
+                }
+            }
+            return isf;
+            //throw new NotImplementedException();
+        }
+
+       
         public bool islogin(string name, string password)
         {
             bool iseqr = false;
@@ -94,5 +156,11 @@ namespace finalwcf
           {
             return Class2.db;
         }
-}
+
+        public List<CustClass1> showAll2()
+        {
+            return CustClass2.db;
+           // throw new NotImplementedException();
+        }
+    }
 }
