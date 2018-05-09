@@ -42,3 +42,6 @@ E:\final\final\obj\Debug\final.Form7.resources
 E:\final\final\obj\Debug\final.Properties.Resources.resources
 E:\final\final\obj\Debug\final.csproj.GenerateResource.Cache
 E:\final\final\obj\Debug\final.Form8.resources
+F:\FinalBookMe\BookMe\final\final\bin\Debug\final.exe.config
+F:\FinalBookMe\BookMe\final\final\obj\Debug\final.exe
+F:\FinalBookMe\BookMe\final\final\obj\Debug\final.pdb
