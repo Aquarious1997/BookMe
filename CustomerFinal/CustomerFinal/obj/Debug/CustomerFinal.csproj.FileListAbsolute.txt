@@ -1,0 +1,35 @@
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.exe.config
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.csprojResolveAssemblyReference.cache
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.cust1.resources
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.cust2R.resources
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.Properties.Resources.resources
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.csproj.GenerateResource.Cache
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.exe
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.pdb
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\bin\Debug\Bunifu_UI_v1.5.3.dll
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.exe
+c:\users\aquaioux\documents\visual studio 2015\Projects\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.pdb
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.exe.config
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.exe
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.pdb
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.csprojResolveAssemblyReference.cache
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.cust1.resources
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.cust2R.resources
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.custC3.resources
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.custR4.resources
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.Properties.Resources.resources
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.csproj.GenerateResource.Cache
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.exe
+C:\Users\AquaiouX\Videos\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.pdb
+E:\cd ooad\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.exe.config
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.exe
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.pdb
+E:\cd ooad\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.exe
+E:\cd ooad\CustomerFinal\CustomerFinal\bin\Debug\CustomerFinal.pdb
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.csprojResolveAssemblyReference.cache
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.cust1.resources
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.cust2R.resources
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.custC3.resources
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.custR4.resources
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.Properties.Resources.resources
+E:\cd ooad\CustomerFinal\CustomerFinal\obj\Debug\CustomerFinal.csproj.GenerateResource.Cache
