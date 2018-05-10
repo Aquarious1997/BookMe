@@ -12,7 +12,136 @@ namespace finalwcf
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-      
+        public void adname1(string name)
+        {
+            addy2.showe1.Add(name);
+            //throw new NotImplementedException();
+        }
+        public void updateItem(int ind, string bus, string cap)
+        {
+            addy2 y = new addy2();
+            y.update(ind, bus, cap);
+        }
+        public void updateCapacity(string cap, int index)
+        {
+
+            addy2.showe5.RemoveAt(index);
+            addy2.showe5.Insert(index, cap);
+
+
+
+
+
+        }
+        public void adname2(string name)
+        {
+            addy2.showe2.Add(name);
+            //throw new NotImplementedException();
+        }
+
+        public void adname3(string name)
+        {
+            addy2.showe3.Add(name);
+            //throw new NotImplementedException();
+        }
+
+        public void adname4(string name)
+        {
+            addy2.showe4.Add(name);
+            //throw new NotImplementedException();
+        }
+
+        public void adname5(string name)
+        {
+            addy2.showe5.Add(name);
+            //throw new NotImplementedException();
+        }
+
+        public void delete1(int index)
+        {
+            addy2.showe1.RemoveAt(index);
+            //throw new NotImplementedException();
+        }
+
+        public void delete2(int index)
+        {
+            addy2.showe2.RemoveAt(index);
+            // throw new NotImplementedException();
+        }
+
+        public void delete3(int index)
+        {
+            addy2.showe3.RemoveAt(index);
+            // throw new NotImplementedException();
+        }
+
+        public void delete4(int index)
+        {
+            addy2.showe4.RemoveAt(index);
+            //throw new NotImplementedException();
+        }
+
+        public void delete5(int index)
+        {
+            addy2.showe5.RemoveAt(index);
+            //throw new NotImplementedException();
+        }
+
+        public void deletepp(int index)
+        {
+            addy2 t = new addy2();
+            t.deletpp(index);
+            // throw new NotImplementedException();
+        }
+
+        public void isaf(string service, string route, string routee, string buses, string capacity)
+        {
+            addy fp = new addy();
+            fp.Service = service;
+            fp.Route = route;
+            fp.Routee = routee;
+            fp.Buses = buses;
+            fp.Capacity = capacity;
+
+            addy2.db.Add(fp);
+            //throw new NotImplementedException();
+        }
+
+        public List<addy> showAll3()
+        {
+            return addy2.db;
+            //throw new NotImplementedException();
+        }
+
+        public List<string> showName1()
+        {
+            return addy2.showe1;
+            // throw new NotImplementedException();
+        }
+
+        public List<string> showName2()
+        {
+            return addy2.showe2;
+            // throw new NotImplementedException();
+        }
+
+        public List<string> showName3()
+        {
+            return addy2.showe3;
+            //throw new NotImplementedException();
+        }
+
+        public List<string> showName4()
+        {
+            return addy2.showe4;
+            //throw new NotImplementedException();
+        }
+
+        public List<string> showName5()
+        {
+            return addy2.showe5;
+            //throw new NotImplementedException();
+        }
 
         public bool changee(string name,string password, string new_password)
         {

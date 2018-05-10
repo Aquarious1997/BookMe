@@ -39,6 +39,47 @@ namespace finalwcf
         bool cchangee(string name, string password, string npassword);
         [OperationContract]
         List<CustClass1> showAll2();
+        [OperationContract]
+        void isaf(string service, string route, string routee, string buses, string capacity);
+        [OperationContract]
+        List<string> showName1();
+        [OperationContract]
+        List<string> showName2();
+        [OperationContract]
+        List<string> showName3();
+        [OperationContract]
+        List<string> showName4();
+        [OperationContract]
+        List<string> showName5();
+        [OperationContract]
+        void adname1(string name);
+        [OperationContract]
+        void adname2(string name);
+
+        [OperationContract]
+        void adname3(string name);
+        [OperationContract]
+        void adname4(string name);
+        [OperationContract]
+        void adname5(string name);
+        [OperationContract]
+        void deletepp(int index);
+        [OperationContract]
+        void delete1(int index);
+        [OperationContract]
+        void delete2(int index);
+        [OperationContract]
+        void delete3(int index);
+        [OperationContract]
+        void delete4(int index);
+        [OperationContract]
+        void delete5(int index);
+        [OperationContract]
+        List<addy> showAll3();
+        [OperationContract]
+        void updateCapacity(string cap, int index);
+        [OperationContract]
+        void updateItem(int ind, string bus, string cap);
 
 
         // TODO: Add your service operations here

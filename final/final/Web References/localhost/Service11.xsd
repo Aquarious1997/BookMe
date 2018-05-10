@@ -39,4 +39,20 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="CustClass1" nillable="true" type="tns:CustClass1" />
+  <xs:complexType name="ArrayOfaddy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="addy" nillable="true" type="tns:addy" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfaddy" nillable="true" type="tns:ArrayOfaddy" />
+  <xs:complexType name="addy">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Buses" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Capacity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Route" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Routee" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Service" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="addy" nillable="true" type="tns:addy" />
 </xs:schema>

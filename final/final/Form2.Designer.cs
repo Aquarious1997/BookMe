@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -50,7 +51,6 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -75,6 +75,16 @@
             this.groupBox1.Size = new System.Drawing.Size(174, 541);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(0, 35);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(174, 23);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "Back To Login";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // bunifuFlatButton5
             // 
@@ -340,6 +350,7 @@
             this.button3.Size = new System.Drawing.Size(227, 162);
             this.button3.TabIndex = 22;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // bunifuMaterialTextbox2
             // 
@@ -383,6 +394,7 @@
             this.button1.Size = new System.Drawing.Size(227, 162);
             this.button1.TabIndex = 19;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // bunifuMaterialTextbox4
             // 
@@ -426,6 +438,7 @@
             this.button2.Size = new System.Drawing.Size(227, 162);
             this.button2.TabIndex = 25;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
@@ -435,16 +448,7 @@
             this.button4.TabIndex = 9;
             this.button4.Text = "Grid-View";
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(0, 35);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(174, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Back To Login";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form2
             // 

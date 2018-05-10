@@ -16,3 +16,9 @@ C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\bin\finalwcf.pdb
 C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.csprojResolveAssemblyReference.cache
 C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.dll
 C:\Users\Raza Khadim\Desktop\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.pdb
+C:\Users\AquaiouX\Music\Touch the\BookMe\finalwcf\finalwcf\bin\finalwcf.dll.config
+C:\Users\AquaiouX\Music\Touch the\BookMe\finalwcf\finalwcf\bin\finalwcf.dll
+C:\Users\AquaiouX\Music\Touch the\BookMe\finalwcf\finalwcf\bin\finalwcf.pdb
+C:\Users\AquaiouX\Music\Touch the\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.csprojResolveAssemblyReference.cache
+C:\Users\AquaiouX\Music\Touch the\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.dll
+C:\Users\AquaiouX\Music\Touch the\BookMe\finalwcf\finalwcf\obj\Debug\finalwcf.pdb
