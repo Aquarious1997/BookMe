@@ -90,3 +90,6 @@ C:\Users\AquaiouX\Music\Touch the\BookMe\final\final\obj\Debug\final.Properties.
 C:\Users\AquaiouX\Music\Touch the\BookMe\final\final\obj\Debug\final.csproj.GenerateResource.Cache
 C:\Users\Raza Khadim\Desktop\BookMe\final\final\obj\Debug\final.Form13.resources
 C:\Users\Raza Khadim\Desktop\BookMe\final\final\obj\Debug\final.Form14.resources
+F:\Sir Usman\BookMe\final\final\bin\Debug\final.exe.config
+F:\Sir Usman\BookMe\final\final\obj\Debug\final.exe
+F:\Sir Usman\BookMe\final\final\obj\Debug\final.pdb

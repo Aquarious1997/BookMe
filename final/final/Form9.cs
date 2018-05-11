@@ -59,6 +59,9 @@ namespace final
                     bunifuMetroTextbox1.Text = " ";
                     bunifuMetroTextbox2.Text = " ";
                     MessageBox.Show(" welcome ");
+                    Form14 frm = new Form14();
+                    frm.Show();
+                    this.Hide();
 
 
                 }
