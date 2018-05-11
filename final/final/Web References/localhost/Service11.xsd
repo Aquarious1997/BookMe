@@ -47,7 +47,7 @@
   <xs:element name="ArrayOfaddy" nillable="true" type="tns:ArrayOfaddy" />
   <xs:complexType name="addy">
     <xs:sequence>
-      <xs:element minOccurs="0" name="Buses" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Bus" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Capacity" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Route" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Routee" nillable="true" type="xs:string" />

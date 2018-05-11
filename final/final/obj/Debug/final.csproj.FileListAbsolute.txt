@@ -88,3 +88,5 @@ C:\Users\AquaiouX\Music\Touch the\BookMe\final\final\obj\Debug\final.Form8.resou
 C:\Users\AquaiouX\Music\Touch the\BookMe\final\final\obj\Debug\final.Form9.resources
 C:\Users\AquaiouX\Music\Touch the\BookMe\final\final\obj\Debug\final.Properties.Resources.resources
 C:\Users\AquaiouX\Music\Touch the\BookMe\final\final\obj\Debug\final.csproj.GenerateResource.Cache
+C:\Users\Raza Khadim\Desktop\BookMe\final\final\obj\Debug\final.Form13.resources
+C:\Users\Raza Khadim\Desktop\BookMe\final\final\obj\Debug\final.Form14.resources

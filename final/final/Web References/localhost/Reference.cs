@@ -1285,7 +1285,7 @@ namespace final.localhost {
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/finalwcf")]
     public partial class addy {
         
-        private string busesField;
+        private string busField;
         
         private string capacityField;
         
@@ -1297,12 +1297,12 @@ namespace final.localhost {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string Buses {
+        public string Bus {
             get {
-                return this.busesField;
+                return this.busField;
             }
             set {
-                this.busesField = value;
+                this.busField = value;
             }
         }
         

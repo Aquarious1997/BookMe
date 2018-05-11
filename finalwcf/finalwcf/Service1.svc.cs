@@ -100,7 +100,7 @@ namespace finalwcf
             fp.Service = service;
             fp.Route = route;
             fp.Routee = routee;
-            fp.Buses = buses;
+            fp.Bus = buses;
             fp.Capacity = capacity;
 
             addy2.db.Add(fp);
